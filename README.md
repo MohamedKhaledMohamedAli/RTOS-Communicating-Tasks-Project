@@ -1,3 +1,5 @@
+# RTOS Communicating Tasks Project
+
 Three tasks communicate via a queue of fixed size implemented using FreeRTOS:
 
 There are two sender tasks. Each sender task sleeps for a RANDOM period of time Tsender and when it 
