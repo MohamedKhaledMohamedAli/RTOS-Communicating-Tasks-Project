@@ -1,4 +1,4 @@
-Implemented three tasks communicate via a queue of fixed size using FreeRTOS:
+Three tasks communicate via a queue of fixed size implemented using FreeRTOS:
 
 There are two sender tasks. Each sender task sleeps for a RANDOM period of time Tsender and when it 
 wakes up it sends a message to the queue containing the string “Time is XYZ” where XYZ is current time in 
